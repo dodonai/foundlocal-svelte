@@ -1,0 +1,10 @@
+[
+	{ "label": "Home services", "icon": "\ud83d\udd27" },
+	{ "label": "Health & wellness", "icon": "\ud83e\ude7a" },
+	{ "label": "Dental & medical", "icon": "\ud83e\uddb7" },
+	{ "label": "Salons & spas", "icon": "\u2702\ufe0f" },
+	{ "label": "Auto services", "icon": "\ud83d\ude97" },
+	{ "label": "Professional services", "icon": "\ud83d\udcbc" },
+	{ "label": "Retail & boutiques", "icon": "\ud83d\udecd\ufe0f" },
+	{ "label": "Nonprofits & community", "icon": "\ud83e\udd1d" }
+]
