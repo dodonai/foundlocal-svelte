@@ -9,7 +9,7 @@ const config = {
 			fallback: '404.html'
 		}),
 		paths: {
-			base: dev ? '' : '/foundlocal-svelte'
+			base: ''
 		},
 		prerender: {
 			handleHttpError: 'warn'
