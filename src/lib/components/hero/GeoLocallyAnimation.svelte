@@ -160,7 +160,7 @@
 			<PhaseWrapper caption="From signup to live in days, not months">
 				{#snippet children()}
 					<div class="fl-card fl-success-card">
-						<div class="fl-success-logo">FoundLocal.ai</div>
+						<div class="fl-success-logo">GeoLocally</div>
 						<div class="fl-stats-row">
 							<div class="fl-stat">
 								<div class="fl-stat-value">$499</div>

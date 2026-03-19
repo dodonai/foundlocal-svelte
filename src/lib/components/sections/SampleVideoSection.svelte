@@ -9,7 +9,7 @@
 	<div class="container mx-auto px-4 max-w-3xl text-center">
 		<SectionLabel>See it in action</SectionLabel>
 		<h2 class="text-3xl md:text-4xl font-extrabold text-gray-900 text-balance mb-4">
-			Here's what a FoundLocal.ai storefront looks like.
+			Here's what a GeoLocally storefront looks like.
 		</h2>
 		<p class="text-gray-500 text-lg mb-10 text-pretty">
 			A sample page and explainer video we built for a local business.

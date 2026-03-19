@@ -28,7 +28,7 @@
 			</h2>
 			<p class="text-gray-500 text-lg max-w-2xl mx-auto text-pretty">
 				If customers find you by searching "near me" — or asking AI for a recommendation —
-				FoundLocal.ai was made for you.
+				GeoLocally was made for you.
 			</p>
 		</div>
 

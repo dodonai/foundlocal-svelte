@@ -12,7 +12,7 @@
 				One page. One video. One price to start.
 			</h2>
 			<p class="text-base font-bold text-gray-800">
-				One new job from your FoundLocal.ai page pays for itself.
+				One new job from your GeoLocally page pays for itself.
 			</p>
 		</div>
 
@@ -139,7 +139,7 @@
 		<!-- Agency comparison -->
 		<p class="text-center text-xs text-gray-400 mb-6">
 			For comparison: Yelp ads cost $10,000+/year. An SEO agency: $500–$1,500/mo. A video studio:
-			$5,000–$25,000. Your FoundLocal.ai storefront starts at $499 + $49/mo. Full growth plan:
+			$5,000–$25,000. Your GeoLocally storefront starts at $499 + $49/mo. Full growth plan:
 			$149/mo.
 		</p>
 

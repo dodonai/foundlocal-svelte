@@ -15,10 +15,10 @@
 </script>
 
 <svelte:head>
-	<title>FoundLocal.ai — Video-First Landing Pages for Local Service Businesses</title>
+	<title>GeoLocally — Video-First Landing Pages for Local Service Businesses</title>
 	<meta
 		name="description"
-		content="FoundLocal.ai builds video-first landing pages engineered to rank on Google and get recommended by ChatGPT, Perplexity, and every AI assistant your customers use."
+		content="GeoLocally builds video-first landing pages engineered to rank on Google and get recommended by ChatGPT, Perplexity, and every AI assistant your customers use."
 	/>
 </svelte:head>
 

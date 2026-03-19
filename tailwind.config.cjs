@@ -8,7 +8,7 @@ module.exports = {
 	daisyui: {
 		themes: [
 			{
-				foundlocal: {
+				geolocally: {
 					primary: '#4f46e5',
 					secondary: '#6366f1',
 					accent: '#10b981',

@@ -1,6 +1,6 @@
 <script>
 	import { Check } from 'lucide-svelte';
-	import FoundLocalAnimation from '$lib/components/hero/FoundLocalAnimation.svelte';
+	import GeoLocallyAnimation from '$lib/components/hero/GeoLocallyAnimation.svelte';
 
 	const trustItems = [
 		'Ranks on Google + AI',
@@ -40,7 +40,7 @@
 
 			<!-- Sub-headline -->
 			<p class="text-lg md:text-xl text-gray-300 leading-relaxed max-w-2xl mb-8 text-pretty">
-				FoundLocal.ai builds you a video-first landing page engineered to rank on Google
+				GeoLocally builds you a video-first landing page engineered to rank on Google
 				<em>and</em> get recommended by ChatGPT, Perplexity, and every AI assistant your customers
 				use. One page. One video. One price. Yours forever.
 			</p>
@@ -76,7 +76,7 @@
 
 		<!-- Animation Column -->
 		<div class="flex items-center justify-center">
-			<FoundLocalAnimation />
+			<GeoLocallyAnimation />
 		</div>
 	</div>
 </section>

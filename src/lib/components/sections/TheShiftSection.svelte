@@ -75,7 +75,7 @@
 
 		<div class="text-center bg-gray-900 text-white rounded-xl py-6 px-8">
 			<p class="text-base md:text-lg font-bold text-pretty">
-				FoundLocal.ai builds your page for BOTH: strong local Google rankings and AI
+				GeoLocally builds your page for BOTH: strong local Google rankings and AI
 				recommendations.
 				<span class="text-indigo-400">One page handles everything.</span>
 			</p>

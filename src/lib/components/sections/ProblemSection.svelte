@@ -39,7 +39,7 @@
 			<p class="text-gray-600 text-sm leading-relaxed">
 				Lead gen platforms sell you recycled leads. AI assistants generally don't pull
 				recommendations from Yelp ads — they rely on structured, authoritative web pages.
-				FoundLocal.ai gives you a page YOU own that both Google and AI can trust.
+				GeoLocally gives you a page YOU own that both Google and AI can trust.
 			</p>
 		</div>
 	</div>
