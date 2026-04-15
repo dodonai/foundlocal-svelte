@@ -1,42 +1,80 @@
 <!doctype html>
 <html lang="en" data-theme="geolocally">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" href="%sveltekit.assets%/favicon.svg" type="image/svg+xml" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%sveltekit.assets%/favicon.png" type="image/png" />
+    <link rel="apple-touch-icon" href="%sveltekit.assets%/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-		<!-- Google Analytics 4 (deferred to reduce unused JS on initial load) -->
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
-			gtag('js', new Date());
-			gtag('config', 'G-SNE1W554P0');
-			window.addEventListener('load', function() {
-				var s = document.createElement('script');
-				s.src = 'https://www.googletagmanager.com/gtag/js?id=G-SNE1W554P0';
-				s.async = true;
-				document.head.appendChild(s);
-			});
-		</script>
+    <!-- Google Analytics 4 loads only after analytics consent -->
+    <script>
+      (function () {
+        var measurementId = "G-SNE1W554P0";
+        var analyticsLoaded = false;
 
-		<!-- Microsoft Clarity — replace XXXXXXXXXX with your Project ID -->
-		<!-- <script>
-			(function(c,l,a,r,i,t,y){
-				c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-				t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-				y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-			})(window, document, "clarity", "script", "XXXXXXXXXX");
-		</script> -->
+        function disableAnalytics() {
+          window["ga-disable-" + measurementId] = true;
+          window.gtag = function () {};
+        }
 
-		<!-- Google Fonts (non-render-blocking) -->
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" />
-		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" media="print" onload="this.media='all'" />
-		<noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" /></noscript>
-		%sveltekit.head%
-	</head>
-	<body>
-		<div style="display: contents">%sveltekit.body%</div>
-	</body>
+        function loadAnalytics() {
+          if (analyticsLoaded) return;
+
+          analyticsLoaded = true;
+          window["ga-disable-" + measurementId] = false;
+          window.dataLayer = window.dataLayer || [];
+          window.gtag = function gtag() {
+            window.dataLayer.push(arguments);
+          };
+          window.gtag("js", new Date());
+          window.gtag("config", measurementId);
+
+          var script = document.createElement("script");
+          script.src =
+            "https://www.googletagmanager.com/gtag/js?id=" + measurementId;
+          script.async = true;
+          document.head.appendChild(script);
+        }
+
+        disableAnalytics();
+
+        try {
+          if (window.localStorage.getItem("cookie-consent") === "accepted") {
+            loadAnalytics();
+          }
+        } catch (error) {
+          disableAnalytics();
+        }
+
+        window.addEventListener("cookie-consent-updated", function (event) {
+          if (event.detail === "accepted") loadAnalytics();
+          if (event.detail === "declined") disableAnalytics();
+        });
+      })();
+    </script>
+
+    <!-- Google Fonts (non-render-blocking) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+      media="print"
+      onload="this.media = 'all'"
+    />
+    <noscript
+      ><link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet"
+    /></noscript>
+    %sveltekit.head%
+  </head>
+  <body>
+    <div style="display: contents">%sveltekit.body%</div>
+  </body>
 </html>

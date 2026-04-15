@@ -1,0 +1,42 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg1" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1020"/>
+      <stop offset="1" stop-color="#131D3A"/>
+    </linearGradient>
+    <linearGradient id="accent1" x1="788" y1="84" x2="1094" y2="536" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#818CF8"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" rx="36" fill="url(#bg1)"/>
+  <circle cx="1048" cy="88" r="136" fill="#312E81" opacity="0.28"/>
+  <circle cx="994" cy="514" r="164" fill="#0F766E" opacity="0.18"/>
+  <path d="M0 496C176 444 262 618 456 618C638 618 742 484 940 484C1084 484 1146 546 1200 578V630H0V496Z" fill="#0F172A" opacity="0.4"/>
+
+  <rect x="84" y="72" width="190" height="42" rx="21" fill="#1E293B"/>
+  <text x="118" y="100" fill="#A5B4FC" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="1.4">AI SEARCH SHIFT</text>
+
+  <text x="84" y="196" fill="white" font-family="Inter, Arial, sans-serif" font-size="62" font-weight="800">Your Customers</text>
+  <text x="84" y="268" fill="white" font-family="Inter, Arial, sans-serif" font-size="62" font-weight="800">Aren't Just</text>
+  <text x="84" y="340" fill="white" font-family="Inter, Arial, sans-serif" font-size="62" font-weight="800">Googling</text>
+  <text x="84" y="412" fill="white" font-family="Inter, Arial, sans-serif" font-size="62" font-weight="800">Anymore.</text>
+  <text x="84" y="474" fill="#67E8F9" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700">They're asking AI.</text>
+
+  <rect x="776" y="94" width="328" height="438" rx="28" fill="#111827" stroke="#334155" stroke-width="2"/>
+  <rect x="804" y="126" width="272" height="58" rx="18" fill="#0F172A" stroke="#334155" stroke-width="2"/>
+  <circle cx="838" cy="155" r="11" fill="#818CF8"/>
+  <rect x="862" y="145" width="182" height="20" rx="10" fill="#334155"/>
+  <rect x="804" y="212" width="272" height="88" rx="22" fill="#0F172A"/>
+  <rect x="832" y="238" width="88" height="18" rx="9" fill="#93C5FD"/>
+  <rect x="832" y="268" width="186" height="14" rx="7" fill="#475569"/>
+  <rect x="804" y="322" width="272" height="88" rx="22" fill="#0F172A"/>
+  <rect x="832" y="348" width="104" height="18" rx="9" fill="#67E8F9"/>
+  <rect x="832" y="378" width="160" height="14" rx="7" fill="#475569"/>
+  <rect x="804" y="432" width="272" height="72" rx="22" fill="url(#accent1)"/>
+  <text x="838" y="476" fill="#06111F" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800">Clear service</text>
+  <text x="838" y="504" fill="#06111F" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800">and location signals</text>
+
+  <text x="84" y="574" fill="#94A3B8" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="600">GeoLocally</text>
+  <text x="1010" y="574" fill="#94A3B8" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="600">geolocally.com/blog</text>
+</svg>

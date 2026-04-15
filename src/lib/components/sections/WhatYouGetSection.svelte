@@ -7,12 +7,12 @@
 		<div class="text-center mb-12">
 			<SectionLabel>What You Get</SectionLabel>
 			<h2 class="text-3xl md:text-4xl font-extrabold text-balance mb-4">
-				Your complete digital storefront.
-				<span class="text-indigo-400">Built for Google AND AI.</span>
+				Your digital storefront.
+				<span class="text-indigo-400">Built to say the right thing fast.</span>
 			</h2>
 			<p class="text-gray-400 text-lg max-w-2xl mx-auto text-pretty">
-				Everything you need to show up everywhere your customers search — in one package, one
-				price.
+				Everything GeoLocally builds to help customers understand you quickly and take the next
+				step.
 			</p>
 		</div>
 
@@ -24,18 +24,16 @@
 				>
 					1
 				</span>
-				<h3 class="font-bold text-base mb-3 leading-snug">
-					A page that ranks on Google AND gets recommended by AI
-				</h3>
+				<h3 class="font-bold text-base mb-3 leading-snug">A page that says what you do fast</h3>
 				<p class="text-gray-400 text-sm leading-relaxed flex-1">
-					So your business can show up when someone Googles &ldquo;local service near me&rdquo; or
-					asks ChatGPT &ldquo;Who&rsquo;s the best local business near me?&rdquo; Connected to your
-					Google Business Profile. Mobile-first. Fast.
+					So a customer can tell in seconds what you offer, where you work, and how to contact
+					you. Clear headline. Clear service area. Clear next step. Built for search without
+					sounding stuffed or robotic.
 				</p>
 				<span
 					class="mt-4 w-fit bg-indigo-500/20 text-indigo-400 border border-indigo-500/30 text-xs rounded-full px-3 py-1 font-medium"
 				>
-					SEO + AEO Landing Page
+					Focused Landing Page
 				</span>
 			</div>
 
@@ -50,10 +48,9 @@
 					A video that builds trust in 60 seconds
 				</h3>
 				<p class="text-gray-400 text-sm leading-relaxed flex-1">
-					A 30–60 second animated explainer that clearly shows what you do and why customers should
-					call you. Streamlined production with quality checks — a natural-sounding voiceover and
-					on-brand visuals. Not a basic slideshow or generic stock footage montage. Delivered in
-					formats ready for your website, Instagram, TikTok, Facebook, and YouTube.
+					A 30-60 second explainer that shows what you do and why someone should call. Clear
+					script, natural-sounding voiceover, strong visuals, and versions ready for your website
+					and social.
 				</p>
 				<span
 					class="mt-4 w-fit bg-indigo-500/20 text-indigo-400 border border-indigo-500/30 text-xs rounded-full px-3 py-1 font-medium"
@@ -69,24 +66,22 @@
 				>
 					+
 				</span>
-				<h3 class="font-bold text-base mb-3 leading-snug">
-					Keep your Google profile active on autopilot
-				</h3>
+				<h3 class="font-bold text-base mb-3 leading-snug">Optional support after launch</h3>
 				<p class="text-gray-400 text-sm leading-relaxed flex-1">
-					We auto-publish weekly posts to your Google Business Profile, generate social media
-					templates, and send you a monthly performance report — all on autopilot. Active profiles
-					tend to rank higher on both Google and AI recommendations. Cancel anytime.
+					If you want help after launch, GeoLocally can support profile updates, seasonal
+					refreshes, social cutdowns, and simple reporting around what your business actually
+					needs.
 				</p>
 				<div class="flex flex-wrap gap-2 mt-4">
 					<span
 						class="w-fit bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 text-xs rounded-full px-3 py-1 font-medium"
 					>
-						Optional — from $149/mo
+						Optional add-on
 					</span>
 					<span
 						class="w-fit bg-yellow-500/20 text-yellow-400 border border-yellow-500/30 text-xs rounded-full px-3 py-1 font-medium"
 					>
-						Most popular add-on
+						Available after launch
 					</span>
 				</div>
 			</div>

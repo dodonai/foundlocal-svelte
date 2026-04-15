@@ -15,19 +15,19 @@
 </script>
 
 <svelte:head>
-	<title>GeoLocally — Video-First Landing Pages for Local Service Businesses</title>
+	<title>GeoLocally | Landing Pages and Explainer Videos for Local Businesses</title>
 	<meta
 		name="description"
-		content="GeoLocally builds video-first landing pages engineered to rank on Google and get recommended by ChatGPT, Perplexity, and every AI assistant your customers use."
+		content="GeoLocally builds focused landing pages and short explainer videos for local service businesses that need to be understood faster online."
 	/>
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://geolocally.com" />
-	<meta property="og:title" content="GeoLocally — Video-First Landing Pages for Local Service Businesses" />
-	<meta property="og:description" content="GeoLocally builds video-first landing pages engineered to rank on Google and get recommended by ChatGPT, Perplexity, and every AI assistant your customers use." />
+	<meta property="og:title" content="GeoLocally | Landing Pages and Explainer Videos for Local Businesses" />
+	<meta property="og:description" content="GeoLocally builds focused landing pages and short explainer videos for local service businesses that need to be understood faster online." />
 	<meta property="og:image" content="https://geolocally.com/og-image.png" />
 	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:title" content="GeoLocally — Video-First Landing Pages for Local Service Businesses" />
-	<meta name="twitter:description" content="GeoLocally builds video-first landing pages engineered to rank on Google and get recommended by ChatGPT, Perplexity, and every AI assistant your customers use." />
+	<meta name="twitter:title" content="GeoLocally | Landing Pages and Explainer Videos for Local Businesses" />
+	<meta name="twitter:description" content="GeoLocally builds focused landing pages and short explainer videos for local service businesses that need to be understood faster online." />
 	<meta name="twitter:image" content="https://geolocally.com/og-image.png" />
 	<link rel="canonical" href="https://geolocally.com" />
 	{@html `<script type="application/ld+json">${JSON.stringify({
@@ -37,23 +37,26 @@
 				"@type": "Organization",
 				"name": "GeoLocally",
 				"url": "https://geolocally.com",
-				"logo": "https://geolocally.com/favicon.svg",
+				"logo": "https://geolocally.com/logo-dark.svg",
 				"email": "hello@geolocally.com",
-				"description": "GeoLocally builds video-first landing pages engineered to rank on Google and get recommended by AI assistants.",
+				"description": "GeoLocally builds focused landing pages and short explainer videos for local service businesses that need to be understood faster online.",
 				"sameAs": []
 			},
 			{
-				"@type": "WebApplication",
-				"name": "GeoLocally",
+				"@type": "Service",
+				"name": "GeoLocally Digital Storefront",
 				"url": "https://geolocally.com",
-				"applicationCategory": "BusinessApplication",
-				"operatingSystem": "Web",
-				"description": "Video-first landing pages for local service businesses, optimized for Google and AI search engines.",
+				"serviceType": "Focused landing pages and explainer videos for local service businesses",
+				"areaServed": {
+					"@type": "Country",
+					"name": "United States"
+				},
+				"description": "Focused landing pages and short explainer videos for local service businesses that need to be understood faster online.",
 				"offers": {
 					"@type": "Offer",
 					"price": "499",
 					"priceCurrency": "USD",
-					"description": "Digital Storefront — one-time setup fee"
+					"description": "Digital Storefront starting at $499"
 				},
 				"provider": {
 					"@type": "Organization",

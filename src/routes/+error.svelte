@@ -31,10 +31,10 @@
 				Back to Home
 			</a>
 			<a
-				href="/#get-your-storefront"
+				href="/#get-started"
 				class="inline-block border border-gray-600 hover:border-gray-400 text-gray-300 hover:text-white font-bold px-8 py-3.5 rounded-xl text-base transition-colors"
 			>
-				Get Your Storefront
+				Request Your Storefront
 			</a>
 		</div>
 	</div>

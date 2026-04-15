@@ -12,7 +12,7 @@
 				One page. One video. One price to start.
 			</h2>
 			<p class="text-base font-bold text-gray-800">
-				One new job from your GeoLocally page pays for itself.
+				A sharp first move for businesses that need to look clearer online fast.
 			</p>
 		</div>
 
@@ -21,16 +21,16 @@
 			<div class="border border-gray-200 rounded-2xl shadow-sm bg-white">
 				<div class="p-7 flex flex-col h-full">
 					<h3 class="font-bold text-gray-900 text-xl mb-1">Digital Storefront</h3>
-					<p class="text-gray-500 text-sm mb-5">
-						Everything you need to get found — on Google and AI
-					</p>
+					<p class="text-gray-500 text-sm mb-5">Focused landing page + explainer video</p>
 
 					<p class="text-5xl font-extrabold text-gray-900 leading-none">$499</p>
-					<p class="text-sm text-gray-400 mt-1 mb-4">one-time setup</p>
+					<p class="text-sm text-gray-400 mt-1 mb-4">starting point</p>
 
 					<hr class="border-gray-200 mb-4" />
 
-					<p class="text-sm font-semibold text-gray-700 mb-5">Then $49/mo to keep it live</p>
+					<p class="text-sm font-semibold text-gray-700 mb-5">
+						Tell us about your business. If GeoLocally can help, we'll reply with the next step.
+					</p>
 
 					<ul class="flex flex-col gap-2.5 mb-8 flex-1">
 						{#each pricing.coreFeatures as f (f)}
@@ -45,7 +45,7 @@
 						onclick={() => typeof gtag === 'function' && gtag('event', 'cta_click', { event_category: 'engagement', event_label: 'pricing_digital_storefront' })}
 						class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3.5 rounded-xl text-base transition-colors text-center block"
 					>
-						Get Your Storefront — $499
+						Request This Plan
 					</a>
 				</div>
 			</div>
@@ -61,13 +61,11 @@
 				</div>
 				<div class="p-7 pt-8 flex flex-col h-full">
 					<h3 class="font-bold text-gray-900 text-xl mb-1">Growth</h3>
-					<p class="text-gray-500 text-sm mb-5">
-						Everything in Digital Storefront, plus full autopilot
-					</p>
+					<p class="text-gray-500 text-sm mb-5">Keep the storefront active after launch</p>
 
-					<p class="text-5xl font-extrabold text-gray-900 leading-none">$149</p>
-					<p class="text-sm text-gray-400 mt-1 mb-1">/month</p>
-					<p class="text-xs text-gray-400 mb-4">+ $499 one-time setup</p>
+					<p class="text-5xl font-extrabold text-gray-900 leading-none">From $149</p>
+					<p class="text-sm text-gray-400 mt-1 mb-1">monthly support</p>
+					<p class="text-xs text-gray-400 mb-4">priced around scope</p>
 
 					<p class="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-3">
 						Everything in Digital Storefront, plus:
@@ -85,7 +83,7 @@
 						onclick={() => typeof gtag === 'function' && gtag('event', 'cta_click', { event_category: 'engagement', event_label: 'pricing_growth' })}
 						class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3.5 rounded-xl text-base transition-colors text-center block"
 					>
-						Start Growing — $149/mo
+						Ask About Growth
 					</a>
 				</div>
 			</div>
@@ -101,17 +99,15 @@
 				</div>
 				<div class="p-7 pt-8 flex flex-col h-full">
 					<h3 class="font-bold text-white text-xl mb-1">Enterprise</h3>
-					<p class="text-slate-400 text-sm mb-5">
-						For businesses that want a full digital marketing partner
-					</p>
+					<p class="text-slate-400 text-sm mb-5">For businesses that want a hands-on marketing partner</p>
 
 					<p class="text-5xl font-extrabold text-white leading-none">Custom</p>
 					<p class="text-sm text-slate-400 mt-1 mb-5">pricing</p>
 
 					<p class="text-slate-300 text-sm leading-relaxed mb-5">
-						Everything in Growth, plus human-crafted content, strategy calls, additional video
-						production, multi-location support, and custom integrations. We'll build a plan
-						around what your business actually needs.
+						Everything in Growth, plus human-written content, strategy support, extra video
+						production, multi-location work, and custom requests. GeoLocally builds around what
+						your business actually needs.
 					</p>
 
 					<ul class="flex flex-col gap-2 mb-8 flex-1">
@@ -129,10 +125,10 @@
 							onclick={() => typeof gtag === 'function' && gtag('event', 'cta_click', { event_category: 'engagement', event_label: 'pricing_enterprise' })}
 							class="w-full border-2 border-amber-500 text-amber-400 hover:bg-amber-500/10 font-bold py-3.5 rounded-xl text-base transition-colors text-center block"
 						>
-							Contact Us
+							Talk to Us
 						</a>
 						<p class="text-center text-xs text-slate-500 mt-3">
-							We'll follow up within 1 business day.
+							We'll reply within 1 business day.
 						</p>
 					</div>
 				</div>
@@ -141,9 +137,8 @@
 
 		<!-- Agency comparison -->
 		<p class="text-center text-xs text-gray-400 mb-6">
-			For comparison: Yelp ads cost $10,000+/year. An SEO agency: $500–$1,500/mo. A video studio:
-			$5,000–$25,000. Your GeoLocally storefront starts at $499 + $49/mo. Full growth plan:
-			$149/mo.
+			For comparison: Yelp ads can cost $10,000+/year. Many SEO retainers start at $500-$1,500/mo.
+			Video production often costs $5,000+. GeoLocally starts at $499.
 		</p>
 
 		<!-- Guarantee -->
@@ -153,9 +148,9 @@
 				<div>
 					<h4 class="font-bold text-gray-900 text-sm mb-1">Our promise</h4>
 					<p class="text-gray-600 text-sm leading-relaxed">
-						Your page goes live in 3–5 business days or we refund your setup fee in full. Not happy
-						with the video? We redo it. Growth and Enterprise plans are month-to-month — cancel
-						anytime, no contracts, no fees.
+						GeoLocally reviews every request before kickoff. If this is not the right move for
+						your business, we'll say so. If the final page has factual mistakes, we fix them
+						before launch.
 					</p>
 				</div>
 			</div>

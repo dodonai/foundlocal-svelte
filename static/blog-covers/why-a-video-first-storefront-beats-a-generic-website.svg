@@ -1,0 +1,41 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#16100A"/>
+      <stop offset="1" stop-color="#31211A"/>
+    </linearGradient>
+    <linearGradient id="accent3" x1="790" y1="98" x2="1090" y2="524" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F59E0B"/>
+      <stop offset="1" stop-color="#FB7185"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" rx="36" fill="url(#bg3)"/>
+  <circle cx="1038" cy="106" r="132" fill="#7C2D12" opacity="0.22"/>
+  <circle cx="980" cy="506" r="154" fill="#7F1D1D" opacity="0.14"/>
+
+  <rect x="84" y="72" width="238" height="42" rx="21" fill="#3A2313"/>
+  <text x="118" y="100" fill="#FDBA74" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="1.2">STOREFRONT STRATEGY</text>
+
+  <text x="84" y="188" fill="white" font-family="Inter, Arial, sans-serif" font-size="62" font-weight="800">Why a</text>
+  <text x="84" y="260" fill="white" font-family="Inter, Arial, sans-serif" font-size="62" font-weight="800">Video-First</text>
+  <text x="84" y="332" fill="white" font-family="Inter, Arial, sans-serif" font-size="62" font-weight="800">Storefront Beats</text>
+  <text x="84" y="404" fill="#FDBA74" font-family="Inter, Arial, sans-serif" font-size="62" font-weight="800">a Generic Website</text>
+  <text x="84" y="474" fill="#FED7AA" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">Clarity beats page count.</text>
+
+  <rect x="774" y="96" width="334" height="430" rx="28" fill="#1B130F" stroke="#4B2E1D" stroke-width="2"/>
+  <rect x="804" y="126" width="274" height="34" rx="12" fill="#312016"/>
+  <circle cx="832" cy="143" r="7" fill="#F87171"/>
+  <circle cx="854" cy="143" r="7" fill="#FBBF24"/>
+  <circle cx="876" cy="143" r="7" fill="#34D399"/>
+  <rect x="804" y="184" width="274" height="170" rx="24" fill="#0F172A"/>
+  <circle cx="942" cy="269" r="44" fill="url(#accent3)"/>
+  <path d="M928 245L972 269L928 293V245Z" fill="#0B1020"/>
+  <rect x="836" y="378" width="210" height="18" rx="9" fill="#FDE68A"/>
+  <rect x="836" y="410" width="176" height="14" rx="7" fill="#6B7280"/>
+  <rect x="836" y="438" width="196" height="14" rx="7" fill="#6B7280"/>
+  <rect x="804" y="474" width="274" height="28" rx="14" fill="url(#accent3)"/>
+  <text x="874" y="494" fill="#1C1917" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800">One clear next step</text>
+
+  <text x="84" y="574" fill="#D1D5DB" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="600">GeoLocally</text>
+  <text x="1010" y="574" fill="#D1D5DB" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="600">geolocally.com/blog</text>
+</svg>

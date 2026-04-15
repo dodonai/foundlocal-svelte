@@ -1,0 +1,38 @@
+# GeoLocally
+
+> GeoLocally is a storefront website built for local businesses. The site explains the offer, shows example market pages, publishes educational articles about local search, and collects business inquiries.
+
+Use this file as a curated guide to the most useful public pages on geolocally.com.
+
+Important notes:
+- GeoLocally currently uses this site for business inquiries. The public site does not currently provide checkout, subscriptions, or account dashboards.
+- The most current legal and data-handling details are on the Privacy Policy and Terms of Service pages linked below.
+- Markdown mirror pages are not currently published for site pages. Use the canonical page URLs directly.
+
+## Core Pages
+
+- [Homepage](https://geolocally.com/): Main overview of the GeoLocally offer, homepage messaging, pricing, FAQs, and intake CTA.
+- [Blog](https://geolocally.com/blog): Index of articles about local search, clearer websites, and storefront strategy.
+
+## Market Pages
+
+- [Florida](https://geolocally.com/florida): GeoLocally page for Florida local businesses.
+- [Miami](https://geolocally.com/miami): GeoLocally page for Miami service businesses.
+- [Tampa](https://geolocally.com/tampa): GeoLocally page for Tampa service businesses.
+
+## Articles
+
+- [Your Customers Aren't Just Googling Anymore. They're Asking AI.](https://geolocally.com/blog/your-customers-arent-just-googling-anymore): Explains how local search behavior is shifting toward faster summaries and shorter decision-making.
+- [What AEO Means for Local Businesses, in Plain English](https://geolocally.com/blog/what-aeo-means-for-local-businesses): Practical explanation of answer engine optimization for local businesses.
+- [Why a Video-First Storefront Beats a Generic Small-Business Website](https://geolocally.com/blog/why-a-video-first-storefront-beats-a-generic-website): Explains the storefront model and why focused pages can convert better than generic sites.
+- [How to Make Your Business Easier to Understand Online](https://geolocally.com/blog/how-to-make-your-business-easier-to-understand-online): Practical guidance on service clarity, location clarity, and mobile usability.
+
+## Policies
+
+- [Privacy Policy](https://geolocally.com/privacy): Current privacy, analytics, and data-handling details.
+- [Terms of Service](https://geolocally.com/terms): Current terms for using the site and submitting an inquiry.
+
+## Optional
+
+- [robots.txt](https://geolocally.com/robots.txt): Crawl guidance for automated tools.
+- [sitemap.xml](https://geolocally.com/sitemap.xml): Current XML sitemap for indexable public pages.

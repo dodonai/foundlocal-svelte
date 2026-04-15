@@ -12,7 +12,7 @@
 				You're great at what you do. But invisible online.
 			</h2>
 			<p class="text-gray-500 text-lg max-w-2xl mx-auto text-pretty">
-				Your competitors are getting found on Google AND recommended by AI. Here's why you're not.
+				Your competitors may simply look clearer online. Here's why yours may not.
 			</p>
 		</div>
 
@@ -33,13 +33,12 @@
 		<!-- Yelp / Angi card -->
 		<div class="border-l-4 border-amber-400 bg-amber-50 rounded-xl p-6">
 			<h3 class="font-bold text-gray-900 text-base mb-2 leading-snug">
-				Many local businesses spend $800 to $1,500/mo on Yelp, Angi, or HomeAdvisor — and AI
-				doesn't even pull from those platforms.
+				Many local businesses spend $800 to $1,500/mo on directories and still do not fix the
+				core problem: their own site is unclear.
 			</h3>
 			<p class="text-gray-600 text-sm leading-relaxed">
-				Lead gen platforms sell you recycled leads. AI assistants generally don't pull
-				recommendations from Yelp ads — they rely on structured, authoritative web pages.
-				GeoLocally gives you a page YOU own that both Google and AI can trust.
+				Paid directories do not fix a confusing website. Google, Maps, and newer search results
+				still look at your broader online presence, not just one listing.
 			</p>
 		</div>
 	</div>

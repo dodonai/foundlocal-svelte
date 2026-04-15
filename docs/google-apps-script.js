@@ -15,8 +15,26 @@
  * The script will auto-create a "GeoLocally Leads" spreadsheet on first submission.
  */
 
-const SHEET_NAME = 'GeoLocally Leads';
-const HEADERS = ['submitted_at', 'name', 'email', 'phone', 'business', 'business_type', 'website', 'referral_source'];
+const SHEET_NAME = "GeoLocally Leads";
+const HEADERS = [
+  "submitted_at",
+  "name",
+  "email",
+  "phone",
+  "business",
+  "business_type",
+  "website",
+  "referral_source",
+  "utm_source",
+  "utm_medium",
+  "utm_campaign",
+  "utm_content",
+  "utm_term",
+  "gclid",
+  "fbclid",
+  "landing_page",
+  "referrer",
+];
 
 function getOrCreateSheet() {
   const files = DriveApp.getFilesByName(SHEET_NAME);
@@ -27,7 +45,7 @@ function getOrCreateSheet() {
   const sheet = ss.getActiveSheet();
   sheet.appendRow(HEADERS);
   // Bold the header row
-  sheet.getRange(1, 1, 1, HEADERS.length).setFontWeight('bold');
+  sheet.getRange(1, 1, 1, HEADERS.length).setFontWeight("bold");
   return sheet;
 }
 
@@ -35,21 +53,24 @@ function doPost(e) {
   try {
     const data = JSON.parse(e.postData.contents);
     const sheet = getOrCreateSheet();
-    const row = HEADERS.map(h => data[h] || '');
+    const row = HEADERS.map((h) => data[h] || "");
     sheet.appendRow(row);
 
-    return ContentService
-      .createTextOutput(JSON.stringify({ status: 'ok' }))
-      .setMimeType(ContentService.MimeType.JSON);
+    return ContentService.createTextOutput(
+      JSON.stringify({ status: "ok" }),
+    ).setMimeType(ContentService.MimeType.JSON);
   } catch (err) {
-    return ContentService
-      .createTextOutput(JSON.stringify({ status: 'error', message: err.toString() }))
-      .setMimeType(ContentService.MimeType.JSON);
+    return ContentService.createTextOutput(
+      JSON.stringify({ status: "error", message: err.toString() }),
+    ).setMimeType(ContentService.MimeType.JSON);
   }
 }
 
 function doGet() {
-  return ContentService
-    .createTextOutput(JSON.stringify({ status: 'ok', message: 'GeoLocally form endpoint is running.' }))
-    .setMimeType(ContentService.MimeType.JSON);
+  return ContentService.createTextOutput(
+    JSON.stringify({
+      status: "ok",
+      message: "GeoLocally form endpoint is running.",
+    }),
+  ).setMimeType(ContentService.MimeType.JSON);
 }

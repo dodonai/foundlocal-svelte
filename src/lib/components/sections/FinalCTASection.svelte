@@ -1,6 +1,12 @@
 <script>
 	import { Check, AlertCircle, Loader2 } from 'lucide-svelte';
 
+	let {
+		title = 'If your business is hard to understand online, someone clearer gets the call.',
+		body = "Tell us what you do and where you work. If GeoLocally can help, we'll reply with the next step within 1 business day.",
+		buttonLabel = 'Request Your Storefront'
+	} = $props();
+
 	// Replace with your deployed Google Apps Script web app URL
 	const FORM_ENDPOINT = 'https://script.google.com/macros/s/AKfycbwv4MW0_vFohlPLnWNqRkx4UFSX1NFS8yuoiQwwTjWCgJ4eojH5yQx-TQE1_fmylbK7nA/exec';
 
@@ -18,6 +24,16 @@
 		'Retail (shop, showroom, boutique, etc.)',
 		'Nonprofit / community organization',
 		'Other'
+	];
+
+	const campaignFields = [
+		'utm_source',
+		'utm_medium',
+		'utm_campaign',
+		'utm_content',
+		'utm_term',
+		'gclid',
+		'fbclid'
 	];
 
 	const referralSources = [
@@ -38,8 +54,17 @@
 		const data = Object.fromEntries(formData.entries());
 		data.submitted_at = new Date().toISOString();
 
+		if (typeof window !== 'undefined') {
+			const params = new URLSearchParams(window.location.search);
+			for (const field of campaignFields) {
+				data[field] = params.get(field) || '';
+			}
+			data.landing_page = window.location.href;
+			data.referrer = document.referrer || '';
+		}
+
 		try {
-			const response = await fetch(FORM_ENDPOINT, {
+			await fetch(FORM_ENDPOINT, {
 				method: 'POST',
 				mode: 'no-cors',
 				headers: { 'Content-Type': 'application/json' },
@@ -49,8 +74,7 @@
 			if (typeof gtag === 'function') {
 				gtag('event', 'generate_lead', {
 					event_category: 'form',
-					event_label: 'storefront_intake',
-					value: 499
+					event_label: 'storefront_intake'
 				});
 			}
 		} catch (err) {
@@ -71,21 +95,19 @@
 					<Check class="w-7 h-7 text-white" />
 				</div>
 				<h2 class="text-3xl font-extrabold mb-4 text-balance">
-					You're on your way to getting found.
+					Your request is in.
 				</h2>
 				<p class="text-gray-300 text-lg leading-relaxed">
-					We'll be in touch within 1 business day to get started on your digital storefront.
+					We'll review your details and reply within 1 business day with the next step.
 				</p>
 			</div>
 		{:else}
 			<div class="text-center mb-10">
 				<h2 class="text-3xl md:text-4xl font-extrabold text-balance mb-4">
-					Your competitor is already showing up on Google.
-					<span class="text-indigo-400">Soon they'll show up on ChatGPT too.</span>
+					{title}
 				</h2>
 				<p class="text-gray-300 text-lg text-pretty leading-relaxed">
-					Get there first. Tell us about your business — we'll have your digital storefront live
-					in 3–5 business days.
+					{body}
 				</p>
 			</div>
 
@@ -173,12 +195,11 @@
 						<Loader2 class="w-4 h-4 animate-spin" />
 						Submitting...
 					{:else}
-						Get Your Storefront — $499
+						{buttonLabel}
 					{/if}
 				</button>
 				<p class="text-center text-xs text-gray-400">
-					We don't consider the project finished until you approve the final product. We follow up
-					within 1 business day.
+					We review every request before kickoff and reply within 1 business day.
 				</p>
 			</form>
 		{/if}

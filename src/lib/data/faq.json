@@ -1,30 +1,30 @@
 [
-	{
-		"question": "Do I need a website already?",
-		"answer": "No. If you already have a website, your GeoLocally page works alongside it as a high-performance landing page. If you don't, it can act as your primary online presence."
-	},
-	{
-		"question": "What kind of video do I get?",
-		"answer": "You get a 30\u201360 second animated explainer that clearly explains what you do and why customers should call you. It includes a clear script, natural-sounding voiceover, and on-brand visuals formatted for web and social."
-	},
-	{
-		"question": "How does the SEO + AEO work?",
-		"answer": "We structure your page for local SEO and AEO: clear service areas, strong local signals, and structured data that helps both Google and AI assistants understand who you are, what you do, and where you serve."
-	},
-	{
-		"question": "Will ChatGPT actually recommend my business?",
-		"answer": "We can\u2019t force any AI assistant to recommend you, but we design your page so you can be a strong candidate: clear information, local authority, and a trustworthy destination. Some clients report being mentioned by AI tools once their page is live and their overall presence is strong."
-	},
-	{
-		"question": "Do I own the page and video?",
-		"answer": "You own your video and the content we create for you. We host the page and handle the infrastructure so you don\u2019t have to manage a website yourself."
-	},
-	{
-		"question": "Can I get revisions?",
-		"answer": "Yes. If there are errors or details that need adjusting, we fix them. If you\u2019re not happy with the final video, we\u2019ll redo it so it feels right for your business."
-	},
-	{
-		"question": "Do you work with businesses outside my state?",
-		"answer": "Yes. We work with local businesses across the U.S. If you\u2019re outside the U.S., tell us where you\u2019re based and we\u2019ll confirm if we can support your market."
-	}
+  {
+    "question": "Do I need a website already?",
+    "answer": "No. If you already have a website, your GeoLocally page works alongside it as a focused landing page. If you don't, it can act as your main online front door."
+  },
+  {
+    "question": "What kind of video do I get?",
+    "answer": "You get a 30-60 second animated explainer that shows what you do and why customers should call. It includes a clear script, natural-sounding voiceover, and on-brand visuals formatted for web and social."
+  },
+  {
+    "question": "How does this help me get found?",
+    "answer": "GeoLocally makes the page clearer about what you do, where you work, and what someone should do next. That helps local SEO and gives Google and newer search tools better information to work with."
+  },
+  {
+    "question": "Can this help when search tools summarize businesses?",
+    "answer": "Yes. No one can promise inclusion in an AI answer, but clearer public information makes it easier for search tools to understand your business correctly."
+  },
+  {
+    "question": "Do I own the page and video?",
+    "answer": "You own the video and the content GeoLocally creates for you. We host the page and handle the infrastructure so you don't have to manage the website yourself."
+  },
+  {
+    "question": "Can I get revisions?",
+    "answer": "Yes. If there are errors or details that need adjusting, we fix them. If the final video feels off, we'll redo it."
+  },
+  {
+    "question": "Do you work with businesses outside my state?",
+    "answer": "Yes. We work with local businesses across the U.S. If you\u2019re outside the U.S., tell us where you\u2019re based and we\u2019ll confirm if we can support your market."
+  }
 ]

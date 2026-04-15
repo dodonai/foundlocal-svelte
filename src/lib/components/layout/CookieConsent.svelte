@@ -9,11 +9,13 @@
 
 	function accept() {
 		localStorage.setItem('cookie-consent', 'accepted');
+		window.dispatchEvent(new CustomEvent('cookie-consent-updated', { detail: 'accepted' }));
 		visible = false;
 	}
 
 	function decline() {
 		localStorage.setItem('cookie-consent', 'declined');
+		window.dispatchEvent(new CustomEvent('cookie-consent-updated', { detail: 'declined' }));
 		visible = false;
 	}
 </script>
@@ -24,8 +26,9 @@
 			class="mx-auto max-w-3xl rounded-xl bg-gray-900 text-white shadow-2xl border border-gray-700 p-5 flex flex-col sm:flex-row items-start sm:items-center gap-4"
 		>
 			<p class="text-sm text-gray-300 flex-1">
-				We use cookies and analytics to improve your experience and understand how our site is used.
-				See our <a href="/privacy" class="underline text-indigo-400 hover:text-indigo-300">Privacy Policy</a> for details.
+				We use optional analytics only after you accept. See our
+				<a href="/privacy" class="underline text-indigo-400 hover:text-indigo-300">Privacy Policy</a>
+				for details.
 			</p>
 			<div class="flex gap-2 shrink-0">
 				<button

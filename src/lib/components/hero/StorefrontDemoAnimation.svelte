@@ -111,15 +111,15 @@
 			</PhaseWrapper>
 		{/if}
 
-		<!-- Phase 2: Structured for AI -->
-		{#if step === 2}
-			<PhaseWrapper caption="Structured data — so AI can recommend you">
+			<!-- Phase 2: Structured for search systems -->
+			{#if step === 2}
+				<PhaseWrapper caption="Structured data — so search tools can parse the page">
 				{#snippet children()}
-					<div class="sd-card sd-schema-card">
-						<div class="sd-schema-header">
-							<span class="sd-schema-icon">✨</span>
-							<span class="sd-schema-title">AI-Ready Structure</span>
-						</div>
+						<div class="sd-card sd-schema-card">
+							<div class="sd-schema-header">
+								<span class="sd-schema-icon">✨</span>
+								<span class="sd-schema-title">Search-Ready Structure</span>
+							</div>
 						<div class="sd-code-block">
 							<div class="sd-code-line sd-code-1"><span class="sd-code-key">"@type"</span>: <span class="sd-code-val">"LocalBusiness"</span></div>
 							<div class="sd-code-line sd-code-2"><span class="sd-code-key">"name"</span>: <span class="sd-code-val">"{biz.biz}"</span></div>
@@ -133,18 +133,18 @@
 							<span class="sd-s-badge sd-sb-3">FAQ ✓</span>
 							<span class="sd-s-badge sd-sb-4">AggregateRating ✓</span>
 						</div>
-						<div class="sd-ai-ready">
-							<span class="sd-ai-check">✓</span>
-							<span class="sd-ai-text">AI-Ready</span>
+							<div class="sd-ai-ready">
+								<span class="sd-ai-check">✓</span>
+								<span class="sd-ai-text">Machine-readable</span>
+							</div>
 						</div>
-					</div>
-				{/snippet}
-			</PhaseWrapper>
-		{/if}
+					{/snippet}
+				</PhaseWrapper>
+			{/if}
 
 		<!-- Phase 3: Live & Tracking -->
 		{#if step === 3}
-			<PhaseWrapper caption="Live with analytics — track every visit and call">
+				<PhaseWrapper caption="Live with analytics — track visits and form actions">
 				{#snippet children()}
 					<div class="sd-card sd-dashboard-card">
 						<div class="sd-dash-header">
@@ -160,14 +160,14 @@
 								<div class="sd-dash-num">847</div>
 								<div class="sd-dash-label">Visits</div>
 							</div>
-							<div class="sd-dash-stat sd-ds-2">
-								<div class="sd-dash-num">234</div>
-								<div class="sd-dash-label">Clicks</div>
-							</div>
-							<div class="sd-dash-stat sd-ds-3">
-								<div class="sd-dash-num">62</div>
-								<div class="sd-dash-label">Calls</div>
-							</div>
+								<div class="sd-dash-stat sd-ds-2">
+									<div class="sd-dash-num">234</div>
+									<div class="sd-dash-label">CTA Clicks</div>
+								</div>
+								<div class="sd-dash-stat sd-ds-3">
+									<div class="sd-dash-num">14</div>
+									<div class="sd-dash-label">Leads</div>
+								</div>
 						</div>
 						<div class="sd-dash-chart">
 							<div class="sd-bar sd-bar-1"></div>

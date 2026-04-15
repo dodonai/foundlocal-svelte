@@ -31,11 +31,11 @@
 		{#if step === 0}
 			<PhaseWrapper caption="Your customers aren't just Googling anymore">
 				{#snippet children()}
-					<div class="gl-card gl-search-card">
-						<div class="gl-search-tabs">
-							<div class="gl-tab">Google</div>
-							<div class="gl-tab gl-tab-active">AI Search</div>
-						</div>
+						<div class="gl-card gl-search-card">
+							<div class="gl-search-tabs">
+								<div class="gl-tab">Google</div>
+								<div class="gl-tab gl-tab-active">Answer View</div>
+							</div>
 						<div class="gl-search-bar">
 							<span class="gl-search-icon">🔍</span>
 							<span class="gl-typewriter">{biz.query}</span>
@@ -46,39 +46,39 @@
 			</PhaseWrapper>
 		{/if}
 
-		<!-- Phase 1: AI Picks ONE Answer -->
-		{#if step === 1}
-			<PhaseWrapper caption="AI gives ONE direct recommendation">
+			<!-- Phase 1: Search tools summarize options -->
+			{#if step === 1}
+				<PhaseWrapper caption="Search tools summarize a small set of options">
 				{#snippet children()}
 					<div class="gl-card gl-ai-card">
 						<div class="gl-ai-header">
 							<span class="gl-ai-sparkle">✨</span>
 							<span class="gl-ai-title">AI Assistant</span>
 						</div>
-						<div class="gl-ai-user-msg">
-							<div class="gl-user-bubble">"{biz.query}?"</div>
-						</div>
-						<div class="gl-ai-response">
-							<div class="gl-response-line gl-line-1">Based on my analysis, I'd recommend:</div>
+							<div class="gl-ai-user-msg">
+								<div class="gl-user-bubble">"{biz.query}?"</div>
+							</div>
+							<div class="gl-ai-response">
+								<div class="gl-response-line gl-line-1">Here are a few businesses that match:</div>
 							<div class="gl-response-line gl-line-2">
 								<span class="gl-stars">★★★★★</span>
 								<span class="gl-biz-name">{biz.biz}</span>
 							</div>
-							<div class="gl-response-line gl-line-3">
-								Strong reviews, verified credentials, and an excellent track record...
-							</div>
-							<div class="gl-response-line gl-line-4">
-								<span class="gl-view-link">View their page →</span>
+								<div class="gl-response-line gl-line-3">
+									Clear service area, current site, and strong public signals...
+								</div>
+								<div class="gl-response-line gl-line-4">
+									<span class="gl-view-link">Compare options →</span>
+								</div>
 							</div>
 						</div>
-					</div>
 				{/snippet}
 			</PhaseWrapper>
 		{/if}
 
-		<!-- Phase 2: That Answer is YOUR Page -->
-		{#if step === 2}
-			<PhaseWrapper caption="Your page. Your video. Built to be found.">
+			<!-- Phase 2: That Answer is YOUR Page -->
+			{#if step === 2}
+				<PhaseWrapper caption="Your page. Your video. Easier to understand.">
 				{#snippet children()}
 					<div class="gl-card gl-browser-card">
 						<div class="gl-browser-chrome">
@@ -114,16 +114,16 @@
 			</PhaseWrapper>
 		{/if}
 
-		<!-- Phase 3: Built for Google AND AI -->
-		{#if step === 3}
-			<PhaseWrapper caption="Rank on Google. Get recommended by AI.">
+			<!-- Phase 3: Clear search signals -->
+			{#if step === 3}
+				<PhaseWrapper caption="Clearer signals for search and AI summaries.">
 				{#snippet children()}
 					<div class="gl-dual-cards">
 						<div class="gl-card gl-mini-card gl-slide-left">
-							<div class="gl-mini-header">
-								<span>🔍</span>
-								<span class="gl-mini-title">Google</span>
-							</div>
+								<div class="gl-mini-header">
+									<span>🔍</span>
+									<span class="gl-mini-title">Search</span>
+								</div>
 							<div class="gl-result gl-result-highlight">
 								<span class="gl-result-bar"></span>
 								<span class="gl-result-text">{biz.biz}</span>
@@ -137,42 +137,42 @@
 								<span class="gl-result-bar"></span>
 								<span class="gl-result-text">Third result</span>
 							</div>
-							<div class="gl-page-one-label">Page 1</div>
-						</div>
-						<div class="gl-card gl-mini-card gl-slide-right">
-							<div class="gl-mini-header">
-								<span>✨</span>
-								<span class="gl-mini-title">AI</span>
+								<div class="gl-page-one-label">Clear local offer</div>
 							</div>
-							<div class="gl-ai-rec">
-								<div class="gl-rec-text">I recommend</div>
-								<div class="gl-rec-biz">{biz.biz}</div>
-								<div class="gl-rec-check">✓ Recommended</div>
+							<div class="gl-card gl-mini-card gl-slide-right">
+								<div class="gl-mini-header">
+									<span>✨</span>
+									<span class="gl-mini-title">Summary</span>
+								</div>
+								<div class="gl-ai-rec">
+									<div class="gl-rec-text">Easy to parse</div>
+									<div class="gl-rec-biz">{biz.biz}</div>
+									<div class="gl-rec-check">✓ Service + location clear</div>
+								</div>
 							</div>
 						</div>
-					</div>
 				{/snippet}
 			</PhaseWrapper>
 		{/if}
 
-		<!-- Phase 4: Live in 3-5 Days -->
+		<!-- Phase 4: Fast fit review -->
 		{#if step === 4}
-			<PhaseWrapper caption="From signup to live in days, not months">
+			<PhaseWrapper caption="Fast review before kickoff">
 				{#snippet children()}
 					<div class="gl-card gl-success-card">
 						<div class="gl-success-logo">GeoLocally</div>
 						<div class="gl-stats-row">
 							<div class="gl-stat">
 								<div class="gl-stat-value">$499</div>
-								<div class="gl-stat-label">One-time</div>
+								<div class="gl-stat-label">Starting at</div>
 							</div>
 							<div class="gl-stat">
-								<div class="gl-stat-value">3–5 Days</div>
-								<div class="gl-stat-label">To go live</div>
+								<div class="gl-stat-value">1 Day</div>
+								<div class="gl-stat-label">Fit review</div>
 							</div>
 							<div class="gl-stat">
 								<div class="gl-stat-value">Yours</div>
-								<div class="gl-stat-label">Forever</div>
+								<div class="gl-stat-label">Video + copy</div>
 							</div>
 						</div>
 						<div class="gl-progress-ring">
@@ -183,7 +183,7 @@
 							<span class="gl-check-pop">✓</span>
 						</div>
 						<div class="gl-live-msg">
-							Your {biz.name} storefront is live <span class="gl-sparkle-emoji">✨</span>
+							Kickoff moves fast once your fit is confirmed <span class="gl-sparkle-emoji">✨</span>
 						</div>
 					</div>
 				{/snippet}

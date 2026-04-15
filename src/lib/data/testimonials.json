@@ -1,17 +1,17 @@
 [
-	{
-		"quote": "I was paying $1,200/mo on Angi and getting maybe 3 real leads. GeoLocally built me a page that ranks near the top in my city \u2014 and a customer told me they found me through ChatGPT. That had never happened before.",
-		"name": "Mike R.",
-		"business": "Rodriguez Services (home services)"
-	},
-	{
-		"quote": "I didn\u2019t even have a website before. They built my page, made the video, and I was live in 4 days. Patients keep saying they \u2018found us online and loved the video\u2019 before they booked.",
-		"name": "Dr. Lena K.",
-		"business": "Bright Smiles Dental"
-	},
-	{
-		"quote": "The video alone brought in new customers the first week we posted it on Facebook and Instagram. It finally feels like our business looks as good online as it does in person.",
-		"name": "Jason T.",
-		"business": "Willow Lane Boutique"
-	}
+  {
+    "quote": "Home services usually need a page that says the offer, service area, and next step fast. Less clicking. Less confusion.",
+    "name": "Home services",
+    "business": "Representative scenario"
+  },
+  {
+    "quote": "Dental and health practices benefit when the page makes the service, credibility, and booking path easy to understand on mobile.",
+    "name": "Dental and health practices",
+    "business": "Representative scenario"
+  },
+  {
+    "quote": "Retail and boutique brands can use a storefront as a cleaner landing page for search, social, and first-time visitors.",
+    "name": "Retail and boutique brands",
+    "business": "Representative scenario"
+  }
 ]

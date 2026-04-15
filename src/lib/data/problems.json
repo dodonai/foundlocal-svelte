@@ -1,18 +1,18 @@
 [
-	{
-		"title": "Your website doesn\u2019t rank (and AI ignores it)",
-		"body": "Your Wix or GoDaddy site wasn\u2019t built for local search \u2014 and it definitely wasn\u2019t built for AI. Google can barely find you. ChatGPT doesn\u2019t even know you exist."
-	},
-	{
-		"title": "You have no video (or bad video)",
-		"body": "Pages with video are far more likely to reach Google page one. But video agencies charge $5,000+, and that AI video you tried? It looks robotic \u2014 customers quickly lose trust when they spot low-quality AI-generated content."
-	},
-	{
-		"title": "Agencies only do half the job",
-		"body": "Your SEO agency optimizes for Google but ignores AI search completely. They\u2019ve never mentioned ChatGPT, Perplexity, or voice search. Meanwhile, a growing share of younger consumers are already using AI tools like ChatGPT instead of Google to find local businesses."
-	},
-	{
-		"title": "You don\u2019t have time for this",
-		"body": "You run a business. You\u2019re serving clients, managing your team, and answering calls. Learning SEO, AEO, and video editing isn\u2019t your job \u2014 and it shouldn\u2019t have to be."
-	}
+  {
+    "title": "Your website is hard to understand quickly",
+    "body": "Many small-business sites bury the service, the location, and the next step. If a customer has to work to figure you out, they move on."
+  },
+  {
+    "title": "You have no video (or the wrong kind)",
+    "body": "A short explainer can help people trust the business faster. But a generic slideshow or cheap-looking video can make the business look worse, not better."
+  },
+  {
+    "title": "SEO without clarity still leaves gaps",
+    "body": "Some vendors chase keywords while leaving the offer, service area, and proof weak. Rankings do not help much if the page still feels vague."
+  },
+  {
+    "title": "You don\u2019t have time for this",
+    "body": "You run a business. You should not have to learn search strategy, website structure, and video production just to look credible online."
+  }
 ]

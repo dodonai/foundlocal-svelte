@@ -1,0 +1,41 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#08131A"/>
+      <stop offset="1" stop-color="#12303A"/>
+    </linearGradient>
+    <linearGradient id="accent2" x1="780" y1="96" x2="1090" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2DD4BF"/>
+      <stop offset="1" stop-color="#60A5FA"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" rx="36" fill="url(#bg2)"/>
+  <circle cx="1026" cy="118" r="126" fill="#134E4A" opacity="0.28"/>
+  <circle cx="954" cy="520" r="156" fill="#1D4ED8" opacity="0.14"/>
+
+  <rect x="84" y="72" width="150" height="42" rx="21" fill="#14323A"/>
+  <text x="118" y="100" fill="#5EEAD4" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="1.4">AEO BASICS</text>
+
+  <text x="84" y="192" fill="white" font-family="Inter, Arial, sans-serif" font-size="62" font-weight="800">What AEO Means</text>
+  <text x="84" y="264" fill="white" font-family="Inter, Arial, sans-serif" font-size="62" font-weight="800">for Local</text>
+  <text x="84" y="336" fill="white" font-family="Inter, Arial, sans-serif" font-size="62" font-weight="800">Businesses</text>
+  <text x="84" y="408" fill="#7DD3FC" font-family="Inter, Arial, sans-serif" font-size="62" font-weight="800">in Plain English</text>
+  <text x="84" y="474" fill="#99F6E4" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">Clear services. Clear locations. Clear structure.</text>
+
+  <rect x="772" y="96" width="336" height="428" rx="28" fill="#0B1E24" stroke="#1E3A44" stroke-width="2"/>
+  <rect x="804" y="132" width="272" height="44" rx="14" fill="#10303A"/>
+  <text x="832" y="160" fill="#A7F3D0" font-family="IBM Plex Mono, Menlo, monospace" font-size="18" font-weight="600">schema + structure</text>
+  <rect x="804" y="200" width="272" height="188" rx="22" fill="#08151A" stroke="#1E3A44" stroke-width="2"/>
+  <text x="832" y="242" fill="#5EEAD4" font-family="IBM Plex Mono, Menlo, monospace" font-size="20" font-weight="700">"service": "family dentist"</text>
+  <text x="832" y="282" fill="#93C5FD" font-family="IBM Plex Mono, Menlo, monospace" font-size="20" font-weight="700">"areaServed": "Miami"</text>
+  <text x="832" y="322" fill="#5EEAD4" font-family="IBM Plex Mono, Menlo, monospace" font-size="20" font-weight="700">"cta": "Book appointment"</text>
+  <rect x="804" y="412" width="126" height="44" rx="14" fill="url(#accent2)"/>
+  <text x="838" y="440" fill="#072127" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800">LOCAL SEO</text>
+  <rect x="950" y="412" width="126" height="44" rx="14" fill="#0F766E"/>
+  <text x="986" y="440" fill="#E6FFFB" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800">AEO</text>
+  <rect x="804" y="476" width="272" height="20" rx="10" fill="#164E63"/>
+  <rect x="804" y="476" width="196" height="20" rx="10" fill="url(#accent2)"/>
+
+  <text x="84" y="574" fill="#94A3B8" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="600">GeoLocally</text>
+  <text x="1010" y="574" fill="#94A3B8" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="600">geolocally.com/blog</text>
+</svg>

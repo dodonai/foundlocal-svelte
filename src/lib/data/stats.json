@@ -1,18 +1,18 @@
 [
-	{
-		"value": "Page 1",
-		"label": "Clients often see meaningful ranking improvements within their first few months"
-	},
-	{
-		"value": "AI Ready",
-		"label": "Built to be recommended by ChatGPT & Perplexity"
-	},
-	{
-		"value": "3\u20135 Days",
-		"label": "From signup to your page going live"
-	},
-	{
-		"value": "$499",
-		"label": "One-time setup + $49/mo hosting"
-	}
+  {
+    "value": "Focused Page",
+    "label": "One clear offer, one service area, one next step"
+  },
+  {
+    "value": "Search-Ready",
+    "label": "Set up for Google, Maps, and modern search"
+  },
+  {
+    "value": "1 Business Day",
+    "label": "Typical reply time"
+  },
+  {
+    "value": "$499",
+    "label": "Starting price"
+  }
 ]

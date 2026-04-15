@@ -1,15 +1,14 @@
 <script>
 	import SectionLabel from '$lib/components/ui/SectionLabel.svelte';
-	import Stars from '$lib/components/ui/Stars.svelte';
 	import testimonials from '$lib/data/testimonials.json';
 </script>
 
 <section class="bg-gray-100 py-20">
 	<div class="container mx-auto px-4 max-w-5xl">
 		<div class="text-center mb-12">
-			<SectionLabel>What owners are saying</SectionLabel>
+			<SectionLabel>Best Fits</SectionLabel>
 			<h2 class="text-3xl md:text-4xl font-extrabold text-gray-900 text-balance">
-				Real results from real businesses.
+				Businesses that usually benefit first.
 			</h2>
 		</div>
 
@@ -17,10 +16,7 @@
 			{#each testimonials as t (t.name)}
 				<div class="bg-white border border-gray-200 rounded-xl shadow-sm">
 					<div class="p-6 flex flex-col h-full">
-						<Stars />
-						<p class="text-gray-600 text-sm leading-relaxed italic flex-1 mb-5">
-							"{t.quote}"
-						</p>
+						<p class="text-gray-600 text-sm leading-relaxed flex-1 mb-5">{t.quote}</p>
 						<div>
 							<p class="font-bold text-gray-900 text-sm">{t.name}</p>
 							<p class="text-gray-400 text-xs">{t.business}</p>
@@ -31,7 +27,7 @@
 		</div>
 
 		<p class="text-center text-xs text-gray-400 mt-6">
-			Results shown are representative examples. Individual results may vary.
+			These are representative scenarios, not direct customer testimonials.
 		</p>
 	</div>
 </section>

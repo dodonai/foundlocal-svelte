@@ -1,11 +1,11 @@
 [
-	{ "label": "Home services", "icon": "🔧" },
-	{ "label": "Health & wellness", "icon": "🩺" },
-	{ "label": "Dental & medical", "icon": "🦷" },
-	{ "label": "Salons & spas", "icon": "✂️" },
-	{ "label": "Auto services", "icon": "🚗" },
-	{ "label": "Professional services", "icon": "💼" },
-	{ "label": "Retail & boutiques", "icon": "🛍️" },
-	{ "label": "Hospitality & food", "icon": "🍽️" },
-	{ "label": "Nonprofits & community", "icon": "🤝" }
+  { "label": "Home services", "icon": "🔧" },
+  { "label": "Health & wellness", "icon": "🩺" },
+  { "label": "Dental & medical", "icon": "🦷" },
+  { "label": "Salons & spas", "icon": "✂️" },
+  { "label": "Auto services", "icon": "🚗" },
+  { "label": "Professional services", "icon": "💼" },
+  { "label": "Retail & boutiques", "icon": "🛍️" },
+  { "label": "Hospitality & food", "icon": "🍽️" },
+  { "label": "Nonprofits & community", "icon": "🤝" }
 ]

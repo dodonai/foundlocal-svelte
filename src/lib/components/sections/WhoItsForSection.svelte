@@ -10,11 +10,11 @@
 		},
 		{
 			title: 'Not a generic AI video tool',
-			body: 'No slideshows. No robotic voices. Streamlined production with quality checks — natural-sounding voiceover and on-brand visuals reviewed before delivery.'
+			body: 'No cheap slideshows. No robotic voice. Just a clear script, natural-sounding voiceover, and visuals reviewed before delivery.'
 		},
 		{
 			title: 'Not a monthly retainer trap',
-			body: 'One price. You own your video and content. Add GBP automation only if you want it.'
+			body: 'One price to start. You own the video and content. Ongoing help is optional.'
 		}
 	];
 </script>
@@ -27,7 +27,7 @@
 				Local businesses that run on reputation and referrals.
 			</h2>
 			<p class="text-gray-500 text-lg max-w-2xl mx-auto text-pretty">
-				If customers find you by searching "near me" — or asking AI for a recommendation —
+				If customers usually find you through local search, referrals, or comparison shopping,
 				GeoLocally was made for you.
 			</p>
 		</div>

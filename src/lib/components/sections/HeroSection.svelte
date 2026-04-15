@@ -3,10 +3,10 @@
 	import GeoLocallyAnimation from '$lib/components/hero/GeoLocallyAnimation.svelte';
 
 	const trustItems = [
-		'Ranks on Google + AI',
-		'No agency fees',
-		'Live in 3–5 business days',
-		'You own your video and content. We handle hosting.'
+		'One clear offer + service area',
+		'$499 starting price',
+		'Reply within 1 business day',
+		'You own the video and content'
 	];
 </script>
 
@@ -34,15 +34,14 @@
 				class="text-4xl md:text-6xl font-extrabold leading-tight tracking-tight text-balance mb-6"
 			>
 				Your customers aren't just Googling anymore.
-				<span class="text-indigo-400">They're asking AI.</span>
-				Are you showing up?
+				<span class="text-indigo-400">They're choosing faster.</span>
+				Is your business clear enough to win the call?
 			</h1>
 
 			<!-- Sub-headline -->
 			<p class="text-lg md:text-xl text-gray-300 leading-relaxed max-w-2xl mb-8 text-pretty">
-				GeoLocally builds you a video-first landing page engineered to rank on Google
-				<em>and</em> get recommended by ChatGPT, Perplexity, and every AI assistant your customers
-				use. One page. One video. $499 to start — you own the content.
+				GeoLocally builds focused landing pages and short explainer videos for local service
+				businesses. One page. One video. One clear next step. Starting at $499.
 			</p>
 
 			<!-- CTAs -->
@@ -52,13 +51,13 @@
 					onclick={() => typeof gtag === 'function' && gtag('event', 'cta_click', { event_category: 'engagement', event_label: 'hero_get_storefront' })}
 					class="bg-white text-gray-900 hover:bg-gray-100 font-bold text-base px-8 py-3.5 rounded-xl shadow-lg transition-colors inline-flex items-center justify-center"
 				>
-					Get Your Storefront — $499
+					Request Your Storefront
 				</a>
 				<a
 					href="#how-ai-works"
 					class="inline-flex items-center justify-center border-2 border-white text-white bg-transparent hover:bg-white/15 font-semibold text-base px-8 py-3.5 rounded-xl transition-colors"
 				>
-					See How AI Search Works
+					See How Search Is Changing
 				</a>
 			</div>
 

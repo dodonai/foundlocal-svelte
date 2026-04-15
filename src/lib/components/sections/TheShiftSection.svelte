@@ -3,14 +3,14 @@
 
 	const oldWay = [
 		'Customer Googles "local service near me"',
-		'Sees 10 blue links + ads',
-		'Clicks around, compares, maybe calls'
+		'Compares a few links and listings',
+		'Calls the business that looks clearest'
 	];
 
 	const newWay = [
-		'Customer asks ChatGPT "Who is the best local business in my city?"',
-		'AI gives ONE direct recommendation',
-		'Customer calls that business immediately'
+		'Customer asks a full question in Google, Maps, or another search tool',
+		'The result compares businesses using public web and business info',
+		'The clearest, most trustworthy option gets more attention'
 	];
 </script>
 
@@ -19,11 +19,11 @@
 		<div class="text-center mb-12">
 			<SectionLabel>The shift is happening</SectionLabel>
 			<h2 class="text-3xl md:text-4xl font-extrabold text-gray-900 text-balance mb-4">
-				Google isn't the only search engine anymore.
+				Search is getting faster.
 			</h2>
 			<p class="text-gray-500 text-lg max-w-2xl mx-auto text-pretty">
-				Your customers are asking ChatGPT, Perplexity, Siri, and Alexa for recommendations. If
-				your business isn't structured for AI — you don't exist.
+				People are asking fuller questions and expecting quicker answers. That does not replace
+				SEO. It makes clarity matter more.
 			</p>
 		</div>
 
@@ -45,9 +45,9 @@
 						</div>
 					{/each}
 				</div>
-				<p class="mt-5 text-xs text-gray-400 border-t border-gray-200 pt-4">
-					You needed SEO to rank here
-				</p>
+					<p class="mt-5 text-xs text-gray-400 border-t border-gray-200 pt-4">
+						Local SEO still matters here
+					</p>
 			</div>
 
 			<!-- New way -->
@@ -68,16 +68,16 @@
 					{/each}
 				</div>
 				<p class="mt-5 text-xs text-indigo-600 font-semibold border-t border-indigo-200 pt-4">
-					You need AEO to be the answer
+					Clear information matters more in faster search results
 				</p>
 			</div>
 		</div>
 
 		<div class="text-center bg-gray-900 text-white rounded-xl py-6 px-8">
 			<p class="text-base md:text-lg font-bold text-pretty">
-				GeoLocally builds your page for BOTH: strong local Google rankings and AI
-				recommendations.
-				<span class="text-indigo-400">One page handles everything.</span>
+				GeoLocally gives your business a clearer front door online: what you do, where you work,
+				why people should trust you, and what to do next.
+				<span class="text-indigo-400">That matters because unclear businesses get skipped.</span>
 			</p>
 		</div>
 	</div>

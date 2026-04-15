@@ -1,13 +1,15 @@
 <script>
 	import { Menu, X } from 'lucide-svelte';
+	import BrandLogo from '$lib/components/layout/BrandLogo.svelte';
 
 	let mobileOpen = $state(false);
 
 	const navLinks = [
-		{ label: 'The Shift', href: '#how-ai-works' },
-		{ label: 'The Problem', href: '#problem' },
-		{ label: 'What You Get', href: '#what-you-get' },
-		{ label: 'Pricing', href: '#pricing' }
+		{ label: 'The Shift', href: '/#how-ai-works' },
+		{ label: 'The Problem', href: '/#problem' },
+		{ label: 'What You Get', href: '/#what-you-get' },
+		{ label: 'Pricing', href: '/#pricing' },
+		{ label: 'Blog', href: '/blog' }
 	];
 
 	function closeMobile() {
@@ -17,7 +19,7 @@
 
 <nav class="sticky top-0 z-50 border-b border-gray-200 bg-white/95 backdrop-blur-sm">
 	<div class="container mx-auto px-4 py-3 flex items-center justify-between">
-		<span class="text-xl font-bold tracking-tight text-gray-900 mr-8">GeoLocally</span>
+		<BrandLogo variant="dark" sizeClass="mr-6 w-[170px] sm:w-[190px]" />
 		<div class="hidden md:flex items-center gap-7 text-sm font-medium text-gray-500">
 			{#each navLinks as link (link.href)}
 				<a href={link.href} class="hover:text-gray-900 transition-colors">{link.label}</a>
@@ -25,10 +27,16 @@
 		</div>
 		<div class="flex items-center gap-3">
 			<a
-				href="#get-started"
+				href="/#get-started"
+				onclick={() =>
+					typeof gtag === 'function' &&
+					gtag('event', 'cta_click', {
+						event_category: 'engagement',
+						event_label: 'nav_request_storefront'
+					})}
 				class="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-lg px-5 py-2 text-sm transition-colors"
 			>
-				Get Your Storefront — $499
+				Request Your Storefront
 			</a>
 			<button
 				type="button"
